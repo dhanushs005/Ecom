@@ -222,11 +222,11 @@ export default function Checkout() {
                   <div className="flex-1">
                     <h3 className="font-medium">{item.name}</h3>
                     <p className="text-gray-600">
-                      ${item.price.toFixed(2)} x {item.quantity}
+                      ₹{item.price.toFixed(2)} x {item.quantity}
                     </p>
                   </div>
                   <p className="font-medium">
-                    ${(item.price * item.quantity).toFixed(2)}
+                    ₹{(item.price * item.quantity).toFixed(2)}
                   </p>
                 </div>
               ))}
@@ -242,7 +242,7 @@ export default function Checkout() {
               </div>
               <div className="flex justify-between text-lg font-semibold">
                 <span>Total</span>
-                <span>${total.toFixed(2)}</span>
+                <span>₹{total.toFixed(2)}</span>
               </div>
             </div>
             <button
