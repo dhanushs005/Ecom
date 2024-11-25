@@ -234,7 +234,7 @@ export default function Checkout() {
             <div className="border-t pt-4 space-y-2">
               <div className="flex justify-between">
                 <span className="text-gray-600">Subtotal</span>
-                <span className="font-medium">${total.toFixed(2)}</span>
+                <span className="font-medium">₹{total.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">Shipping</span>
