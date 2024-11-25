@@ -95,7 +95,7 @@ export default function Cart() {
                 <div className="flex justify-between">
                   <span className="text-lg font-semibold">Total</span>
                   <span className="text-lg font-semibold">
-                    ${total.toFixed(2)}
+                    ₹{total.toFixed(2)}
                   </span>
                 </div>
               </div>
